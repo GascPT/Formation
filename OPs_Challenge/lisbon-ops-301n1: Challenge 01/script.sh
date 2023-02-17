@@ -8,8 +8,8 @@ IFL=/var/log/syslog
 
 
 cp $IFL .
-echo "Copying the File"
+echo "$(date +'%Y_%m_%d_%H:%M:%S') : Copying the File"
 mv syslog "syslog_$(date +'%Y_%m_%d_%H:%M:%S')"
-echo "Append Time to File name"
+echo "$(date +'%Y_%m_%d_%H:%M:%S') : Append Time to File name"
 
 
