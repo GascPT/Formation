@@ -4,12 +4,10 @@
 #          Permissions to change 
 
 
-# Input the PAth to the file
-echo "Input the Path to the file"
-read FILEPATH
+# Input the PAth to the file 
+read -p "Input the Path to the file: " FILEPATH
 # Input the new file permission
-echo "Input new permissions"
-read FP
+read -p "Input new permissions: " FP
 
 #Backup to a file 
 chmod $FP $FILEPATH 
