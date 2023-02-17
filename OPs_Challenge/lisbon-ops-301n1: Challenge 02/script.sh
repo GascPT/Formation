@@ -1,7 +1,8 @@
 #!/bin/bash 
 # Script: Ops Challenge 02
-# Purpose: Input Path to a file 
-#          Permissions to change 
+# Purpose: Input Path to a folder 
+#          Input Permissions to change all the files in that folder
+#          Log to a file
 
 
 # Input the PAth to the file 
